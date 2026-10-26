@@ -1,0 +1,12 @@
+pystray==0.19.5
+keyboard==0.13.5
+Pillow==10.4.0
+pygame==2.6.1
+pyinstaller==6.10.0
+winrt-runtime==4.0.3
+winrt-Windows.Foundation==4!10.0.28000.2705
+winrt-Windows.Foundation.Collections==4!10.0.28000.2705
+winrt-Windows.Media.Control==4!10.0.28000.2705
+winrt-Windows.Storage.Streams==4!10.0.28000.2705
+pycaw==20260927
+comtypes==1.4.17

@@ -1,0 +1,22 @@
+# Output di PyInstaller (rigenerati da build.bat)
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Configurazione e token: l'app li salva in %APPDATA%\AppUtili, ma se
+# finissero qui per sbaglio non vanno pubblicati
+config.json
+spotify_token.json
+spotify_cache/
+
+# Certificati e chiavi di firma
+*.pfx
+*.p12
+*.cer
+*.key
