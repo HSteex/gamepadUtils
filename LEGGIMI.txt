@@ -1,0 +1,57 @@
+AppUtili
+========
+
+Un pannello sopra lo schermo (anche sopra i giochi) da usare con il pad, la
+tastiera o il mouse: volume e uscita audio, giochi Steam, Spotify, Discord,
+cambio monitor, spegnimento del PC.
+
+
+INSTALLAZIONE
+-------------
+
+1. Estrai tutto lo zip in una cartella (non avviare i file da dentro lo zip).
+2. Doppio clic su installa.bat e accetta la richiesta di Windows
+   (servono i permessi di amministratore). Se compare "PC protetto da
+   Windows": Ulteriori informazioni -> Esegui comunque.
+3. Fatto: AppUtili parte subito e a ogni accesso a Windows. Conserva lo zip:
+   dentro c'e' disinstalla.bat.
+
+Cosa fa installa.bat:
+- rende attendibile su questo PC il certificato AppUtili.cer, con cui e'
+  firmato il programma. Senza, Windows non lascerebbe comparire il pannello
+  sopra i giochi a schermo intero. Vuol dire fidarsi di chi te l'ha mandato:
+  Windows accettera' come affidabile qualunque programma firmato con quel
+  certificato. Per toglierlo basta disinstalla.bat;
+- copia il programma in C:\Program Files\AppUtili;
+- lo registra per l'avvio con Windows.
+
+
+COME SI USA
+-----------
+
+- Aprire e chiudere il pannello: Shift+F1, un clic sull'icona di AppUtili
+  vicino all'orologio, oppure Back+RB sul pad.
+- Impostazioni: l'ingranaggio in alto nel pannello, oppure Select tenuto
+  premuto sul pad. Da li' si nascondono le tab che non servono e si
+  collegano Spotify e Discord.
+- Impostazioni -> Informazioni: tutte le scorciatoie e le istruzioni per
+  Spotify, Discord e i monitor.
+
+
+FACOLTATIVI
+-----------
+
+- Spotify e Discord: vanno collegati una volta sola da Impostazioni ->
+  Servizi -> Configura (la finestra spiega i passaggi). Per Spotify serve
+  un account Premium.
+- Cambio monitor (es. scrivania / TV): serve Monitor Profile Switcher,
+  gratuito, da https://monitorprofileswitcher.com/ . Salva i tuoi setup con
+  quel programma e compariranno da soli in AppUtili.
+
+
+DISINSTALLAZIONE
+----------------
+
+Doppio clic su disinstalla.bat (estratto dallo zip). Toglie il
+programma, l'avvio con Windows e il certificato. Le impostazioni restano in
+%APPDATA%\AppUtili: cancella quella cartella se non ti servono piu'.

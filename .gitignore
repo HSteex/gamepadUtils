@@ -14,6 +14,9 @@ venv/
 config.json
 spotify_token.json
 spotify_cache/
+discord_token.json
+discord_recent.json
+discord_cache/
 
 # Certificati e chiavi di firma
 *.pfx
